@@ -42,6 +42,7 @@ public class ProfileView extends AppCompatActivity {
 
         String uid = user.getUid();
         ref.addValueEventListener(new ValueEventListener() {
+
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 uname = snapshot.child(uid).child("username").getValue(String.class);
