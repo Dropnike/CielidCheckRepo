@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1022197408121",
+    "project_id": "silid-check",
+    "storage_bucket": "silid-check.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022197408121:android:4f61f8939b1478a1384fa8",
+        "android_client_info": {
+          "package_name": "com.example.silidcheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022197408121-fgc4rv3qp19vepof2q3290p4rorjo1sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAOTgHrQBNvmQMBwvnboTdC0GAhfK_UmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022197408121-fgc4rv3qp19vepof2q3290p4rorjo1sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
