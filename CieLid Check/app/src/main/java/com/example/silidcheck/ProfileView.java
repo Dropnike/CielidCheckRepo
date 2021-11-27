@@ -34,7 +34,7 @@ public class ProfileView extends AppCompatActivity {
         _phone = findViewById(R.id.prof_phone);
         _acctype = findViewById(R.id.prof_acctype);
         btn_edit = findViewById(R.id.btn_edit_profile);
-        btn_edit.setOnClickListener(v -> { Intent i = new Intent(getApplicationContext() , EditProfileq.class);startActivity(i); });
+        btn_edit.setOnClickListener(v -> { Intent i = new Intent(getApplicationContext() , EditProfile.class);startActivity(i); });
 
         Toast.makeText(ProfileView.this,"Loading User data. Please wait",Toast.LENGTH_SHORT).show();
 
